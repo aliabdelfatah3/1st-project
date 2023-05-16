@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --h1size: 50px;
+  --h2Size: 50px;
+  --h3Size: 15px;
+  --desc: 17px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Header Style*/
+
+header {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  min-height: 10vh;
+  background-color: rgb(28, 27, 27);
+  font-family: "Abril Fatface", cursive;
+  font-weight: 600;
+  z-index: 9999;
+}
+
+.logo {
+  width: 60px;
+  border: #ffa640 2px solid;
+}
+.logo:hover {
+  transform: scale(0.8);
+  z-index: 2;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+nav li a {
+  color: #ffa640;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: 0s;
+}
+
+nav li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-ul {
+  width: 75%;
+  display: flex;
+  gap: 128px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.nav-line {
+  background-color: white;
+  position: absolute;
+  height: 2px;
+  left: 100px;
+  top: 56px;
+
+  transition: all 0.7s cubic-bezier(0.43, 0.23, 0.29, 1.21);
+}
+
+/*Home Style*/
+
+.hero {
+  background-image: url("Background\ Img/Background.jpg");
+  background-position: bottom;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 100px;
+}
+
+.about {
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: var(--h2Size);
+  color: #fff;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.one {
+  font-size: var(--desc);
+  color: #fff;
+  max-width: 400px;
+  text-align: center;
+}
+
+/*Menu*/
+
+embed {
+  width: 180px;
+  height: 110px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+}
+
+table {
+  width: 1000px;
+  height: 100%;
+  line-height: 1.5;
+  border: 30px solid rgb(74, 73, 73);
+  border-radius: 45px;
+  text-align: center;
+}
+
+thead {
+  text-shadow: 1px 1px 1px white;
+  font-size: x-large;
+  line-height: 5;
+  font-family: italic;
+}
+.food {
+  font-size: large;
+}
+.h3 {
+  padding-bottom: 30px;
+  font-family: italic;
+}
+
+/*Locations*/
+
+.loc {
+  font-family: "Rubik Mono One", sans-serif;
+  background-color: white;
+  font: size 50px;
+}
+
+#lol {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.locations {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+#Location {
+  padding: 10px 50px 8px 50px;
+}
+#sub {
+  background: #ffa640;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px 60px 10px 60px;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*Delivery*/
+
+.delivery {
+  margin: auto;
+  text-transform: capitalize;
+  font-size: x-large;
+  background-color: tan;
+}
+
+.fieldset {
+  text-align: left;
+  width: auto;
+  height: auto;
+  background-color: tan;
+}
+
+.button {
+  border-radius: 45px;
+  border-color: black;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+form {
+  text-align: center;
+  margin: 50px;
+  text-transform: capitalize;
+  display: block;
+  font-size: x-large;
+  line-height: 3;
+}
+
+/*Offers*/
+
+.hero2 {
+  min-height: 80vh;
+}
+.off{
+  border: none;
+  width: 100%;
+}
+.a {
+  width: 301.9999px;
+  transition: 1s;
+}
+.b {
+  transition: 1s;
+}
+.a:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+.b:hover {
+  transform: scale(0.8);
+  z-index: 2;
+}
+
+iframe {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 2rem;
+}
+
+/*Contact*/
+
+.ero {
+  min-height: 80vh;
+}
+h3{
+  font-size: x-large;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+h5 {
+  font-size: large;
+}
+
+.con{
+  line-height: 1;
+}
+.co{
+  line-height: 0;
+}
+.contact {
+  text-align: left;
+  margin: 50px;
+  text-transform: capitalize;
+  display: block;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.find {
+  position: absolute;
+  right: 30%;
+  top: 55%;
+}
+
+.photo {
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  width: 400px;
+  padding: 15px;
+}
+
+/*Terms & Privacy Policy Style & About*/
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4.5rem;
+  font-family: "Rubik Vinyl", cursive;
+  line-height: 2;
+  background-color: #c0bcbc;
+}
+.hero1 {
+  background-color: #fff;
+  min-height: 80vh;
+  margin: 1rem 40rem 3rem 40rem;
+}
+
+.imp {
+  background-color: #fed7aa;
+  font-size: small;
+  font-weight: bold;
+  padding: 1rem 3.5rem 1rem 2rem;
+  line-height: 2;
+}
+b {
+  font-size: large;
+  line-height: 2;
+}
+#Terms p {
+  font-size: large;
+}
+p {
+  font-size: small;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 0rem 1.5rem 0rem;
+}
+
+ol {
+  padding: 0rem 3.5rem 1rem 1.6rem;
+}
+.ol {
+  background-color: #ffcfb3;
+  font-size: small;
+  font-weight: 600;
+  padding: 0rem 3.5rem 0rem 1rem;
+  line-height: 2;
+}
+li {
+  font-weight: bold;
+}
+.cont {
+  font-size: medium;
+  line-height: 3;
+}
+.para li {
+  font-size: small;
+  line-height: 3;
+}
+ul li {
+  font-size: small;
+  font-weight: 600;
+}
+li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: 0s;
+  color: black;
+  text-align: center;
+}
+.alo {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  list-style: none;
+}
+
+.to-top {
+  background-color: #ffa640;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #000000;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/*Sign In*/
+
+form {
+  text-align: center;
+  margin: 50px;
+  text-transform: capitalize;
+  display: block;
+  font-size: x-large;
+  line-height: 3;
+}
+.sign {
+  color: red;
+  display: inline;
+  font-size: x-large;
+}
+
+fieldset {
+  text-align: center;
+  background-color: wheat;
+  margin: auto;
+  width: 80%;
+  height: 550px;
+}
+
+.form {
+  margin: 30px;
+  line-height: 2.5;
+}
+
+span {
+  
+  font-size: large;
+}
+
+button {
+  font-size: large;
+  width: 100px;
+  color: rgb(62, 62, 201);
+  border-radius: 10px;
+  border-color: white;
+}
+
+/*Sign up*/
+
+.sob{
+  cursor: pointer;
+}
+
+/*Frame*/
+
+#frame h1 {
+  padding: 2.5rem 2.5rem 3.49rem 2.5rem;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  min-height: 10vh;
+  background-color: rgb(28, 27, 27);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 600;
+  z-index: 9999;
+}
+.logo-o {
+  width: 60px;
+  border: #ffa640 2px solid;
+}
+.footer {
+  margin: auto;
+}
+div li a {
+  text-decoration: none;
+  color: #ffa640;
+}
+div li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-ul {
+  display: flex;
+  text-align: center;
+  gap: 128px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+}
